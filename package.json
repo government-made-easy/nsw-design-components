@@ -5,11 +5,13 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/government-made-easy/nsw-design-components.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Arman Sarrafi <arman.zrb@gmail.com>",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -63,5 +65,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/government-made-easy/nsw-design-components/issues"
+  },
+  "homepage": "https://github.com/government-made-easy/nsw-design-components#readme"
 }
